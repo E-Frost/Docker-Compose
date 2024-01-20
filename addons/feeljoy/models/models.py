@@ -34,7 +34,14 @@ class FeeljoyEvento(models.Model):
     tipo_evento = fields.Selection([
         ('boda', 'Boda'),
         ('cumpleanos', 'Cumpleaños'),
-        ('comunio', 'Comunión')
+        ('comunion', 'Comunión'),
+        ('aniversario', 'Aniversario'),
+        ('despedida_soltero', 'Despedida de Soltero'),
+        ('graduacion', 'Graduación'),
+        ('conferencia', 'Conferencia'),
+        ('reunion_familiar', 'Reunión Familiar'),
+        ('inauguracion', 'Inauguración'),
+        ('fiesta_tematica', 'Fiesta Temática'),
     ], string='Tipo de Evento', required=True)
     precio_por_invitado = fields.Float(string='Precio por Invitado', required=True)
     cantidad_invitados = fields.Integer(string='Cantidad de Invitados', required=True)
