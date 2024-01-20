@@ -27,8 +27,8 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
-        'reports/informe_monitores.xml',
-        'reports/informe_cursos.xml'
+        'report/informe_monitores.xml',
+        'report/informe_cursos.xml'
     ],
     # only loaded in demonstration mode
     'demo': [

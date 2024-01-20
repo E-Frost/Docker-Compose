@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_fcties_fcties,fcties.fcties,model_fcties_fcties,base.group_user,1,1,1,1
+access_fcties_profesor,Access Profesor model,model_fcties_profesor,fcties_profesor,1,1,1,0
+access_fcties_coordinador,Access Coordinador model,model_fcties_coordinador,fcties_coordinador,1,1,1,1
